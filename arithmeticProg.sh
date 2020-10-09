@@ -13,3 +13,6 @@ echo "Result : $result"
 
 result=$((c+a/b))
 echo "Result : $result"
+
+result=$((a%b+c))
+echo "Result : $result"

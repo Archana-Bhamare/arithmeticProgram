@@ -39,7 +39,8 @@ do
 		if [[ ${array[i]} -lt ${array[j]} ]]
 		then
 
-			temp=${array[i]}						array[$i]=${array[j]}
+			temp=${array[i]}
+			array[$i]=${array[j]}
 			array[$j]=$temp
 		fi
 	

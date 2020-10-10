@@ -23,3 +23,6 @@ arithDict[one]="$result1"
 arithDict[two]="$result2"
 arithDict[three]="$result3"
 arithDict[four]="$result4"
+
+array=(${arithDict[@]})
+echo ${array[@]}
